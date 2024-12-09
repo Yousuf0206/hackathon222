@@ -3,18 +3,18 @@ import React from "react";
 import Image from "next/image"
 
 const chefs = [
-  { name: "Tahmina Rumi", role: "Chef", image: "../../../public/chef1.jpeg" },
-  { name: "Jorina Begum", role: "Chef", image: "../../../public/chef2.jpeg" },
-  { name: "M. Mohammad", role: "Chef", image: "../../../public/chef3.jpeg" },
-  { name: "Munna Kathy", role: "Chef", image: "../../../public/chef4.jpeg" },
-  { name: "Tahmina Rumi", role: "Cook", image: "../../../public/chef5.jpeg" },
-  { name: "Bisnu Devgon", role: "Chef", image: "/../../../public/chef6.jpeg" },
-  { name: "Motin Molladst", role: "Chef", image: "../../../public/chef7.jpeg" },
-  { name: "William Rumi", role: "Chef", image: "../../../public/chef8.jpeg" },
-  { name: "Kets William Roy", role: "Chef", image: "../../../public/chef9.jpeg" },
-  { name: "Mahmud Kholil", role: "Chef", image: "/../../../public/chef10.jpeg" },
-  { name: "Ataur Rahman", role: "Chef", image: "/../../../public/chef11.jpeg" },
-  { name: "Monalisa Holly", role: "Chef", image: "/../../../public/chef12.jpeg" },
+  { name: "Tahmina Rumi", role: "Chef", image: "/pic2.png" },
+  { name: "Jorina Begum", role: "Chef", image: "/pic1.png" },
+  { name: "M. Mohammad", role: "Chef", image: "/pic3.png" },
+  { name: "Munna Kathy", role: "Chef", image: "/pic4.png" },
+  { name: "Tahmina Rumi", role: "Cook", image: "/pic2.png" },
+  { name: "Bisnu Devgon", role: "Chef", image: "/pic5.png" },
+  { name: "Motin Molladst", role: "Chef", image: "/pic6.png" },
+  { name: "William Rumi", role: "Chef", image: "/pic7.png" },
+  { name: "Kets William Roy", role: "Chef", image: "/pic8.png" },
+  { name: "Mahmud Kholil", role: "Chef", image: "/pic9.png" },
+  { name: "Ataur Rahman", role: "Chef", image: "/pic10.png" },
+  { name: "Monalisa Holly", role: "Chef", image: "/pic11.png" },
 ];
 
 const ChefGrid = () => {
@@ -55,3 +55,5 @@ const ChefGrid = () => {
 };
 
 export default ChefGrid;
+
+//../../../public/pic2.png

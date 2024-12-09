@@ -7,6 +7,8 @@ import foodpic2 from "../../../public/foodpic2.jpeg"
 import foodpic3 from "../../../public/foodpic3.jpeg"
 import OurChefs from '../ourChefs/page'
 
+
+
 function HomePage() {
   return (
     <>
@@ -52,11 +54,9 @@ function HomePage() {
 
       {/* Image */}
 
-<div>
-  <OurChefs />
-</div>
-
-
+      
+      
+      
       {/* Heading */}
       <div className="text-white w-full md:w-[50%]">
         <h1 className="md:text-[32px] text-[24px] font-normal text-[#FF9F0D] font whitespace-nowrap font-greatVibes">
@@ -103,6 +103,7 @@ function HomePage() {
           </button>
         </div>
       </div>
+      
       <div className="mt-[50px] md:mt-0 ">
         <Image src={foodpic1} alt="Hero Image" className="" width={336} height={536} />
         <div className="flex flex-col md:flex-row mt-[16px] md:mt-[0]">
@@ -111,6 +112,11 @@ function HomePage() {
         </div>
       </div>
     </section>
+
+
+
+<OurChefs />
+
     <FoodCategory/>
     </>
   )

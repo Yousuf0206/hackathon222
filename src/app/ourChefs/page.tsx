@@ -9,11 +9,9 @@ import Image from "next/image"
 
 const OurChefs = () => {
   return (
-    <div>
-      <Hero />
-      <ChefGrid />
-
-      <section className="bg-black md:px-[135px]   py-[50px]">
+    <>
+  
+    <section className="bg-black md:px-[135px]   py-[50px]">
 
         <div className="flex flex-col justify-center items-center">
       <h1 className="md:text-[32px] text-[24px] font-normal text-[#FF9F0D] font whitespace-nowrap font-greatVibes">
@@ -30,7 +28,12 @@ const OurChefs = () => {
           <Image src={chef4} alt="" className="w-[200px] md:w-[280px] md:h-[280px] cursor-pointer" />
         </div>
       </section>
-    </div>
+    
+    <div>
+       <Hero />
+       <ChefGrid />
+       </div>
+       </>
   )
 }
 
