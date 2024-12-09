@@ -5,6 +5,7 @@ import FoodCategory from '../foodcatagery/page'
 import foodpic1 from "../../../public/foodpic1.jpeg"
 import foodpic2 from "../../../public/foodpic2.jpeg"
 import foodpic3 from "../../../public/foodpic3.jpeg"
+import OurChefs from '../ourChefs/page'
 
 function HomePage() {
   return (
@@ -51,7 +52,9 @@ function HomePage() {
 
       {/* Image */}
 
-
+<div>
+  <OurChefs />
+</div>
 
 
       {/* Heading */}
