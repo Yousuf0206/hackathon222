@@ -11,7 +11,7 @@ export default function Navbar() {
 
   const menuItems = [
     { name: "Home", href: "/", active: true },
-    { name: "Menu", href: "/Manu"},
+    { name: "Menu", href: "/Menu"},
     { name: "Blog", href: "/blog" },
     { name: "Pages", href: "/pages" },
     { name: "About", href: "/about" },
